@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #F4E6DA;
+    color: #26372F;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #B79B64;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: normal;
+    color: #26372F;
+    margin: 15px 0;
+}
+
+main {
+    padding: 50px 40px;
+}
+
+
+.subtitulo1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subtitulo1 h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: normal;
+    color: #176247;
+    margin-bottom: 35px;
+}
+
+.botoes1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.botoes1 a {
+    padding: 15px 25px;
+    border: 1px solid #B79B64;
+    border-radius: 30px;
+    color: #176247;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #F2EEE6;
+}
+
+.botoes1 a:hover {
+    background-color: #176247;
+    color: #FFFFFF;
+}
+
+.projetos1 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.projeto1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #B79B64;
+    border-radius: 15px;
+    background-color: #F2EEE6;
+}
+
+.projetos1 h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: normal;
+    color: #176247;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imagem1 {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto1 {
+    flex: 1;
+}
+
+.texto1 h3 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: normal;
+    color: #176247;
+    margin: 0 0 10px;
+}
+
+.texto1 h4 {
+    color: #7C243F;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+.texto1 p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.voltar1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.voltar1 a {
+    color: #176247;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.voltar1 a:hover {
+    color: #7C243F;
+}
+
+footer {
+    background-color: #B79B64;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    color: #26372F;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    margin: 0;
+}

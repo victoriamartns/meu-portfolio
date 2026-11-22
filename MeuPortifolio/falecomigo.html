@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✦ Fale Comigo | Victoria ✦</title>
+    <link rel="icon" href="img/ICONESITE.png">
+    <link rel="stylesheet" href="STYLES/stylecontato.css">
+</head>
+
+<body>
+    <header>
+        <h1>✦ Fale Comigo ✦</h1>
+    </header>
+
+    <main>
+        <section class="contato">
+            <div class="titulo1">
+                <h2>✮ Espaço aberto</h2>
+                <p>para ideias, sugestões, proposta de colaboração ou simplesmente para deixar sua mensagem.</p>
+                <p class="frase">
+                    <i>✦ Toda grande ideia começa com uma conversa. ✦</i>
+                </p>
+                <p class="caractere">✧ ◇ ✦ ◇ ✧</p>
+            </div>
+
+            <form
+                action="https://formsubmit.co/martinslima098@gmail.com"
+                method="POST"
+                class="formulario">
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="✦ Nova mensagem do meu portfólio!">
+                <input
+                    type="hidden"
+                    name="_template"
+                    value="table">
+                <input
+                    type="text"
+                    name="_honey"
+                    style="display:none">
+                <div class="campo">
+                    <label for="nome">✦ Seu nome</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Como posso te chamar?"
+                        autocomplete="name"
+                        required>
+                </div>
+                <div class="campo">
+                    <label for="email">✦ Seu e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemplo@gmail.com"
+                        autocomplete="email"
+                        required>
+                </div>
+                <div class="campo">
+                    <label for="assunto">✦ Assunto</label>
+                    <select
+                        id="assunto"
+                        name="assunto"
+                        required>
+                        <option value="" disabled selected>
+                            Selecione o assunto da mensagem
+                        </option>
+                        <option value="Projeto">
+                            Projeto
+                        </option>
+                        <option value="Colaboração">
+                            Colaboração
+                        </option>
+                        <option value="Sugestão">
+                            Sugestão
+                        </option>
+                        <option value="Comentário">
+                            Comentário
+                        </option>
+                        <option value="Outros assuntos">
+                            Outros assuntos
+                        </option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">✦ Sua mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="7"
+                        maxlength="1000"
+                        placeholder="Escreva aqui..."
+                        required></textarea>
+                </div>
+                <button type="submit">
+                    ✉ Enviar mensagem
+                </button>
+                <p class="aviso">
+                    ✧ Suas informações serão utilizadas
+                    para responder ao seu contato.</p>
+            </form>
+        </section>
+
+        <p class="voltar">
+            <a href="index.html">← Voltar à página inicial</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>◇ Victoria Martins · Portfólio Pessoal · 2026 ◇</p>
+    </footer>
+</body>
+</html>
