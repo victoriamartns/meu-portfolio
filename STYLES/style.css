@@ -217,9 +217,9 @@ main {
 }/*Finalizado*/
 
 .grupo4 {
-    display: flex; /* Organiza as duas colunas de contatos lado a lado. */
-    flex: 1; /* Permite ocupar o espaço disponível. */
-    gap: 50px; /* Distância entre as duas colunas. */
+    display: flex;
+    flex: 1; 
+    gap: 50px; 
 }/*Finalizado*/
 
 .coluna1,
@@ -249,7 +249,7 @@ main {
 }/*Finalizado*/
 
 .tipocontato p {
-    margin: 0; /*remove o espaço do paragrafo*/
+    margin: 0;
 }/*Finalizado*/
 
 .tipocontato a:hover {
